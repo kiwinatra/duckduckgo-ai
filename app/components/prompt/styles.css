@@ -1,0 +1,14 @@
+.custom-input {
+  background-color: #222630;
+  padding: 12px 16px; /* Equivalent to px-4 py-3 */
+  outline: none;
+  width: 280px;
+  color: white;
+  border-radius: 10px; /* Adjust for rounding */
+  border: 2px solid #2B3040; /* Default border color */
+  transition: border-color 0.1s ease; /* Transition for focus effect */
+}
+
+.custom-input:focus {
+  border-color: #596A95; /* Focus border color */
+}

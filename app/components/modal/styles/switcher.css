@@ -1,0 +1,23 @@
+/* MAIN */
+
+.switcher .switcher-dot .switcher-bg {
+    max-width: 100px;
+    max-height: 30px;
+    padding: 2%;
+    image-resolution: 20%;
+}
+
+.switcher ::hover {
+    transform: perspective(1, 5, 15);
+}
+
+#switch .switcher-dot :active {
+    background-color: azure;
+}
+
+/* KEYFRAMES */
+
+@keyframes switchanimation {
+    10% {transform: scaleX(3);}
+    40% {transform: scaleX(34);}
+}

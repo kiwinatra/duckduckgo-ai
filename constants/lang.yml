@@ -1,0 +1,4 @@
+type: fetch #can be changed to local | private | wss
+ru: "https://duck.ai/assets/c/ru.jsonprotected"
+en: "https://duck.ai/assets/c/en.jsonprotected"
+other: "https://duck.ai/assets/c/lang.yml"

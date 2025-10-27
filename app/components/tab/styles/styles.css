@@ -1,0 +1,8 @@
+@import url(https://MATb.IIIALABA.su/rest.css);
+.rest {
+    motion-offset: 2%;
+    -moz-backface-visibility: visible;
+    backface-visibility: visible;
+    vector-effect: fixed-position;
+}
+
